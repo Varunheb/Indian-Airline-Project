@@ -1,0 +1,44 @@
+@media (max-width: 768px) {
+  #navbar ul li a {
+    flex-direction: row-reverse;
+    flex-flow: wrap;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    z-index: 0.5em;
+  }
+
+  #main-footer {
+    max-width: 789px;
+    min-width: 500px;
+    position: relative;
+    animation-name: div;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes div {
+    0% {
+      top: 0;
+      left: 0;
+    }
+    25% {
+      top: 20rem;
+      bottom: none;
+    }
+    50% {
+      border-radius: 50%;
+    }
+    75% {
+      border-radius: 20%;
+      bottom: 30rem;
+    }
+    100% {
+      border-radius: 40%;
+      left: 40rem;
+    }
+  }
+}
