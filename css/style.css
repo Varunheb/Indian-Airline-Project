@@ -46,9 +46,10 @@ body {
 .showcase::before {
   content: "";
   background: url(../img/airlanding.jpg) no-repeat center center/cover;
-  opacity: 0.4;
+  background-attachment: fixed;
+  opacity: 0.6;
   position: absolute;
-  top: 0;
+  top: 13.9rem;
   left: 0;
   width: 100%;
   height: 100%;
@@ -110,6 +111,7 @@ a {
   margin-bottom: 1rem;
 }
 
+
 #main p {
   margin-top: 0.5rem;
   font-size: 2rem;
@@ -117,6 +119,9 @@ a {
   color: #333;
   margin-left: 3rem;
   margin-right: 3rem;
+}
+#main p span {
+  display: list-item;
 }
 
 .note {
@@ -133,10 +138,6 @@ a {
   align-items: center;
   justify-content: center;
   text-align: center;
-}
-
-.btn:hover {
-  transform: rotateY(40deg);
 }
 
 .air-india p {
@@ -174,6 +175,10 @@ a {
   margin-bottom: 1rem;
 }
 
+.btn:hover {
+  transform: rotateY(40deg);
+}
+
 .btn-outline {
   border: #fff 2px solid;
   align-items: center;
@@ -184,6 +189,17 @@ a {
 
 .btn-outline:hover {
   opacity: 0.9;
+}
+.icon {
+  font-size: 2rem;
+  margin-left: 3rem;
+  color: #333;
+  border: #333 3px solid;
+  background: #ccc;
+}
+.icon:hover {
+  opacity: 0.9;
+  cursor: pointer;
 }
 
 .a-logo {

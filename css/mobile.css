@@ -1,44 +1,236 @@
-@media (max-width: 768px) {
-  #navbar ul li a {
-    flex-direction: row-reverse;
-    flex-flow: wrap;
-    flex: 1;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
+@media screen and (max-width: 768px) {
+  /* Navbar */
+  #main-header {
+    background: #0000ff;
+    font-size: 15px;
+  }
+
+  #navbar a {
+    display: inline;
+    font-size: 15px;
     text-align: center;
-    z-index: 0.5em;
   }
 
-  #main-footer {
-    max-width: 789px;
-    min-width: 500px;
-    position: relative;
-    animation-name: div;
-    animation-iteration-count: infinite;
-    animation-delay: 3s;
-    animation-fill-mode: forwards;
+  #main h1 {
+    font-size: 40px;
   }
 
-  @keyframes div {
-    0% {
-      top: 0;
-      left: 0;
-    }
-    25% {
-      top: 20rem;
-      bottom: none;
-    }
-    50% {
-      border-radius: 50%;
-    }
-    75% {
-      border-radius: 20%;
-      bottom: 30rem;
-    }
-    100% {
-      border-radius: 40%;
-      left: 40rem;
-    }
+  #main p {
+    font-size: 1.8rem;
+  }
+
+  .showcase::before {
+    content: "";
+    background: #fff;
+  }
+  /* Air India */
+  .btn {
+    margin-left: 11rem;
+    padding: 5px 10px;
+  }
+  .icon {
+    font-size: 1.5rem;
+  }
+
+  .a-logo {
+    margin-left: 8rem;
+    width: 55%;
+  }
+  .ht {
+    margin-left: 11rem;
+  }
+
+  .fai {
+    margin-left: 6rem;
+    font-size: 2rem;
+  }
+
+  .jrd {
+    width: 80%;
+  }
+
+  .hw {
+    margin-left: 4rem;
+  }
+  .b-747 {
+    width: 90%;
+    margin-left: 1rem;
+  }
+  .b-777 {
+    width: 90%;
+    margin-left: 1rem;
+  }
+  .b-787 {
+    width: 97%;
+    margin-left: 1rem;
+  }
+  .b-737 {
+    width: 95%;
+    margin-left: 1rem;
+  }
+  .a-320 {
+    width: 95%;
+    margin-left: 1rem;
+  }
+  .bg-dark {
+    font-size: 1.5rem;
+  }
+  .ho,
+  .hwo,
+  .foe {
+    font-size: 3rem;
+  }
+  .air-india p {
+    font-size: 1.8rem;
+    margin-left: 2px;
+  }
+  /* Indigo */
+  .b-ind {
+    margin-left: 11rem;
+    padding: 5px 10px;
+  }
+  .ind-logo {
+    margin-left: 9rem;
+    width: 43%;
+  }
+  .fff {
+    font-size: 2.1rem;
+  }
+  .rrr {
+    width: 44%;
+    margin-left: 0.3rem;
+  }
+  .bh {
+    width: 49.5%;
+    margin-right: 0.3rem;
+  }
+  .a320 {
+    width: 98%;
+    margin-left: 0.5rem;
+  }
+  .atr {
+    width: 98.5%;
+    margin-left: 0.5rem;
+  }
+  .atr-72 {
+    margin-left: 0.5rem;
+    width: 98%;
+  }
+
+  /* Spicejet */
+  .sjb {
+    margin-left: 11rem;
+    padding: 5px 10px;
+  }
+  .s-logo {
+    margin-left: 5rem;
+    width: 70%;
+  }
+  .fog {
+    font-size: 2.5rem;
+  }
+  .s-p {
+    margin-left: 1rem;
+    width: 94%;
+    margin-right: 4rem;
+  }
+  .s-s {
+    width: 93%;
+    height: 5%;
+    margin-left: 1rem;
+  }
+  .h--1 {
+    margin-left: 10rem;
+  }
+  .p-one {
+    margin-right: 0.3rem;
+  }
+  .o737 {
+    margin-left: 1rem;
+    width: 95%;
+  }
+  .t737 {
+    width: 95%;
+    margin-left: 1rem;
+    margin-top: 1rem;
+  }
+  .p0 {
+    font-size: 1.7rem;
+  }
+  .o0737 {
+    margin-left: 1rem;
+    width: 95%;
+  }
+
+  /* Jet Airways */
+  .jab {
+    margin-left: 11rem;
+    padding: 5px 10px;
+  }
+  .ja-logo {
+    margin-left: 4rem;
+    width: 70%;
+  }
+  .img {
+    margin-left: 3.5rem;
+    width: 80%;
+  }
+  .jf {
+    font-size: 2.5rem;
+  }
+  .bcs {
+    text-align: center;
+  }
+  .j330 {
+    width: 95%;
+    margin-left: 1rem;
+  }
+  .j777 {
+    width: 95%;
+    margin-left: 1rem;
+  }
+  .air {
+    font-size: 1.8rem;
+  }
+  .j737 {
+    margin-left: 1rem;
+    width: 95%;
+  }
+  .atrja {
+    width: 95%;
+    margin-left: 1rem;
+  }
+  .bcs {
+    font-size: 2.5rem;
+  }
+
+  /* Vistara */
+  .visb {
+    margin-left: 10rem;
+    padding: 5px 10px;
+  }
+  .v-logo {
+    margin-left: 5rem;
+    width: 75%;
+    margin-top: 0.3rem;
+  }
+  .tata {
+    margin-left: 0.2rem;
+    width: 45%;
+  }
+  .singapore {
+    width: 45%;
+    margin-left: 16rem;
+  }
+  .vish {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .v737 {
+    width: 95%;
+    margin-left: 1rem;
+  }
+  .note {
+    font-size: 1.5rem;
   }
 }
